@@ -243,11 +243,12 @@
 				TargetAttributes = {
 					6D86A9B11BEBDC7C00E3DD5A = {
 						CreatedOnToolsVersion = 7.1;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 1010;
 					};
 					6D86A9BB1BEBDC7D00E3DD5A = {
 						CreatedOnToolsVersion = 7.1;
-						LastSwiftMigration = 0800;
+						DevelopmentTeam = ST67N697WZ;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -471,7 +472,7 @@
 				PRODUCT_NAME = Permission;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -493,7 +494,7 @@
 				PRODUCT_NAME = Permission;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -501,11 +502,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D08FF2891DC3AD2900F28088 /* PermissionFlags.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = ST67N697WZ;
 				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.delba.PermissionTests;
 				PRODUCT_NAME = Permission;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -513,12 +515,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D08FF2891DC3AD2900F28088 /* PermissionFlags.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = ST67N697WZ;
 				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.delba.PermissionTests;
 				PRODUCT_NAME = Permission;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
