@@ -32,7 +32,7 @@ internal extension Permission {
         switch status {
         case AVAudioSession.RecordPermission.denied:  return .denied
         case AVAudioSession.RecordPermission.granted: return .authorized
-        default:                                     return .notDetermined
+        default:                                      return .notDetermined
         }
     }
     
