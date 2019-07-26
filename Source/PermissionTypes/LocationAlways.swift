@@ -37,6 +37,8 @@ internal extension Permission {
             return UserDefaults.standard.requestedLocationAlwaysWithWhenInUse ? .denied : .notDetermined
         case .notDetermined: return .notDetermined
         case .restricted, .denied: return .denied
+        @unknown default:
+            fatalError("Not supported: CLAuthorizationStatus \(status.rawValue)")
         }
     }
     
