@@ -33,6 +33,8 @@ internal extension Permission {
         case .authorized:          return .authorized
         case .restricted, .denied: return .denied
         case .notDetermined:       return .notDetermined
+        @unknown default:
+            fatalError("Not supported: INSiriAuthorizationStatus \(status.rawValue)")
         }
     }
     func requestSiri(_ callback: @escaping Callback) {
